@@ -1,1 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,1000");
+html,
+body {
+  height: 100%;
+  font-family: "MinecraftBold";
+  margin: 0px;
+  color: #F9F9F9;
+}
+.header {
+  display: block;
+  top: 8%;
+  height: 70%;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 60%;
+}
+.header-content {
+  position: initial;
+  display: block;
+  padding: 90px 100px;
+  font-family: Minecraft;
+  font-size: 7vw;
+  text-shadow: 10px 10px rgba(25,25,25, 0.8);
+}
+.info {
+  background-color: #E0EEFC;
+  position: sticky;
+  top:63%;
+  height: fit-content;
+  color: rgb(39,39,39);
+}
+.spe {
+  padding: 20px;
+}
+.paragraph, .title {
+  width: 70%;
+  padding-left: 5%;
+}
+.paragraph-left, .title-left {
+  width: 70%;
+  padding-right: 5%;
+}
+.title, .title-left {
+  font-family: Minecraft;
+  font-size: 4vw;
+  font-weight: bold;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+.image {
+  width: 20%;
+  padding-right: 20%;
+}
+.image-left {
+  width: 20%;
+  padding-left: 20%;
+}
+.paragraph, .title {
+  text-align: center;
+}
+.paragraph , .paragraph-left{
+  font-size: 18px;
+  font-family: Montserrat;
+}
+.navbar {
+  height: 8%;
+  width: 100%;
+  background-color: #0b58a5;
+  position: absolute;
+  display: block;
+}
+.navbar-item {
+  padding: 15px;
+  color: #f9f9f9;
+  float: right;
+  font-family: Minecraft;
+  font-weight: 900;
+  font-size: 20px;
+}
+a {
+  text-decoration:none;
+  color: #F9F9F9;
+}
+a:hover {
+  text-decoration:none;
+  color: #F9F9F9;
+}
+a:focus {
+  text-decoration:none;
+  color: #F9F9F9;
+}
+a:visited {
+  text-decoration:none;
+  color: #F9F9F9;
+}
+.navbar-item:hover,.navbar-item-special:hover {
+  background-color: rgba(0,0,0,0.1);
+  transition: all, ease, 0.6s;
+}
+.navbar-item:not(hover),.navbar-item-special:not(hover) {
+  background-color: rgba(0,0,0,0);
+  transition: all, ease, 0.6s;
+}
 
+.navbar-item-special {
+  padding: 15px;
+  float: left;
+  font-family: Minecrafter;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: Minecrafter;
+  src: url(./fonts/Minecrafter.reg.otf);
+}
+
+@font-face {
+  font-family: MinecraftBold;
+  src: url(./fonts/minecraftbold.otf);
+}
