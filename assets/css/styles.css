@@ -112,10 +112,10 @@ a:visited {
 
 @font-face {
   font-family: Minecrafter;
-  src: url(./fonts/Minecrafter.reg.otf);
+  src: url("./fonts/Minecrafter.reg.otf");
 }
 
 @font-face {
   font-family: MinecraftBold;
-  src: url(./fonts/minecraftbold.otf);
+  src: url("./fonts/minecraftbold.otf");
 }
